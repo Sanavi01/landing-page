@@ -105,6 +105,29 @@ a{
 .card{
     max-width: 250px;
     justify-content: center;
-    
-   
+}
+
+.container-3{
+    background-color: #e5e7eb;
+    flex-direction: column;
+ 
+}
+
+.quote{
+    padding: 0px 250px;
+}
+
+.container-3 p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.container-3 p1{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    justify-content: right;
 }
