@@ -7,35 +7,38 @@ body{
 .header, .footer, .container-1{
     display: flex;
     background-color: #1F2937;
+    flex-wrap: wrap;
     padding: 10px 150px;
     
 }
 
 .container-1, .container-2, .container-3, .container-4{
     display: flex;
+    flex-wrap: wrap;
     padding: 75px 150px;
 }
 
 .header{
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .header ul{
+    flex-wrap: wrap;
     flex-shrink: 0;
 }
 
 .header h3{
     font-size: 24px;
     color: #f9faf8;
-    flex-shrink: 0;
+    
 
 }
 
 .container-1 {
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .container-1 h2{
@@ -94,6 +97,7 @@ a{
     align-items: center;
     gap: 52px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .container-2 img{
@@ -115,6 +119,7 @@ a{
 
 .quote{
     padding: 0px 250px;
+    
 }
 
 .container-3 p{
@@ -130,4 +135,38 @@ a{
     font-weight: bold;
     color: #1F2937;
     justify-content: right;
+    margin-right: 35PX;
+}
+
+.container-4{
+    justify-content: center;
+}
+
+.container-4 p, h4{
+    color: whitesmoke;
+    margin: 7px 0px;
+}
+
+
+.box-action{
+    display: flex;
+    padding: 40px 100px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.box-action .button{
+
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 16px;
+    border-color: white;
+    font-weight: bold;
+}
+
+.footer{
+    justify-content: center;
+    color: white;
 }
